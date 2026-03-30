@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Python File",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "python coding.py < input.txt > output.txt"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
