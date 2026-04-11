@@ -1,11 +1,16 @@
-n = int(input("Enter number:-"))
+n = int(input("Enter number:"))
 
 for i in range(n):
     for j in range(i):
-        print(" " , end= "")
-    for j in range(2 * (n-i) -1):
-        print( "*" , end = "")
+        print(" " , end = "")
 
-    
+    for j in range(2*(n-i)-1):
+        print("*", end = "")
+
+    for j in range(i):
+        print(" " , end = "")
 
     print()
+
+
+# yaha par hume space = i hai aur star = 2*(n-i+1)
