@@ -14,34 +14,10 @@
 # print(count_digit(78897))
 
 
-# from math import *
-# def count_digit(num):
-#     return int(log10(num)+1)
-
-# print(count_digit(1276937))
-
-# time complexity = > O(1) annd O(1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 from math import *
-
 def count_digit(num):
     return int(log10(num)+1)
 
-print(count_digit(1237482))
+print(count_digit(1276937))
+
+# time complexity = > O(1) annd O(1)
